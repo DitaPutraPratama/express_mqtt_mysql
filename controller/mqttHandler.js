@@ -21,7 +21,7 @@ const MqttHandler = {
 
         this.mqttClient.on('connect', () => {
             console.log(`mqtt client connected`)
-            this.mqttClient.subscribe('dita/data6snAr', { qos: 0 })
+            this.mqttClient.subscribe('topik/topik_spesifik_esp', { qos: 0 }) //ubah topik sesuai kebutuhan
 
             this.mqttClient.on('message', async (topic, message) => {
                 try {
@@ -42,7 +42,7 @@ const MqttHandler = {
                             ? 4
                             : 5
 
-                    const topicToPublish = 'dita/val9fII5'
+                    const topicToPublish = 'topik/spesifik_express' //ubah topik sesuai kebutuhan
                     this.mqttClient.publish(
                         topicToPublish,
                         nilai.toString(),
