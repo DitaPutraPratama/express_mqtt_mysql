@@ -40,3 +40,4 @@ Untuk menjalankan proyek ini, pastikan Anda telah menginstal Node.js. Repositori
 -   Pastikan Anda telah mengkonfigurasi database MySQL dengan benar.
 -   Jika Anda mengalami masalah, pastikan semua dependensi telah terinstal dengan benar dan konfigurasi lingkungan sesuai.
 -   jika ada pertanyaan kirim email ke ditaputra1296@gmail.com
+-   Repository ini terhubung dengan [react_simple_semi_realtime](https://github.com/DitaPutraPratama/react_simple_semi_realtime) dan [esp32_mqtt_mq135_GP2Y1010AU0F](https://github.com/DitaPutraPratama/esp32_mqtt_mq135_GP2Y1010AU0F) agar menjadi 1 proyek IoT
